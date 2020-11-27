@@ -528,7 +528,7 @@ body {
 	width: 20px;
 	height: 20px;
 	vertical-align: middle;
-	background: url('/svg/search.svg') no-repeat;
+	background: url('../svg/search.svg') no-repeat;
 	background-position: center center;
 	background-size: 20px;
 }
@@ -773,24 +773,24 @@ body {
 }
 
 .icon-tw {
-	background: url(' /svg/004-twitter.svg') no-repeat;
+	background: url('../svg/004-twitter.svg') no-repeat;
 }
 
 .icon-pin {
-	background: url('/svg/001-pinterest.svg') no-repeat;
+	background: url('../svg/001-pinterest.svg') no-repeat;
 }
 
 .icon-face {
-	background: url('/svg/002-facebook-logo.svg') no-repeat;
+	background: url('../svg/002-facebook-logo.svg') no-repeat;
 	background-size: cover;
 }
 
 .icon-inst {
-	background: url('/svg/005-instagram.svg') no-repeat;
+	background: url('../svg/005-instagram.svg') no-repeat;
 }
 
 .icon-tumblr {
-	background: url('/svg/003-tumblr.svg') no-repeat;
+	background: url('../svg/003-tumblr.svg') no-repeat;
 }
 
 .copyright {
