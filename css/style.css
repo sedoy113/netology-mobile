@@ -489,6 +489,7 @@ body {
 }
 
 .field {
+	font-family: 'OpenSans';
 	width: 222px;
 	height: 49px;
 	padding-left: 18px;
@@ -542,6 +543,7 @@ body {
 }
 
 .mail {
+	font-family: 'OpenSans';
 	width: 270px;
 	padding: 17px 0 17px 17px;
 	border: none;
@@ -554,6 +556,7 @@ body {
 }
 
 .mailing-button {
+	font-family: 'OpenSans';
 	width: 270px;
 	height: 49px;
 	font-size: 14px;
