@@ -3,14 +3,13 @@
 	src: url(../fonts/OpenSans-Regular.ttf) format("ttf"), url(../fonts/OpenSans-Regular.woff2) format("woff2"), url(../fonts/OpenSans-Regular.woff) format("woff");
 	font-weight: 400;
 	font-style: normal;
-}
 
-@font-face {
 	font-family: "OpenSans-Bold";
 	src: url(../fonts/OpenSans-Bold.ttf) format("ttf"), url(../fonts/OpenSans-Bold.woff2) format("woff2"), url(../fonts/OpenSans-Bold.woff) format("woff");
 	font-weight: 700;
 	font-style: bold;
 }
+
 
 /* reset */
 body {
@@ -230,6 +229,12 @@ body {
 	background-size: cover;
 }
 
+.trends-item-img {
+	width: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+
 .trends-item::after {
 	content: "";
 	display: inline-block;
@@ -242,32 +247,21 @@ body {
 	opacity: 0.6;
 }
 
-.trends-item-garden {
-	background-image: url(../images/trend1.jpg);
-}
-
-.trends-item-cheese {
-	background-image: url(../images/trend2.jpg);
-}
-
-.trends-item-mountains {
-	background-image: url(../images/trend3.jpg);
-}
-
-.trends-item-lemons {
-	background-image: url(../images/trend4.jpg);
-}
-
 .trends-item-header {
-	display: flex;
-	flex-wrap: wrap;
-	max-width: 370px;
-	background-color: rgba(0, 0, 0, 0);
+	box-sizing: border-box;
 	border: 3px solid #b59f5b;
-	padding: 8% 6%;
-	margin: 25% 4% 5%;
+	padding-left: 6%;
+	padding-top: 6%;
+	padding-right: 6%;
+	padding-bottom: 6%;
+	margin-left: 22px;
+	margin-right: 22px;
+	margin-bottom: 16px;
+	position: absolute;
+	bottom: 0;
 	z-index: 1;
 }
+
 
 .trends-item-categories {
 	padding: 0;
