@@ -1,15 +1,16 @@
 @font-face {
-	font-family: "OpenSans-Regular";
+	font-family: 'OpenSans';
 	src: url(../fonts/OpenSans-Regular.ttf) format("ttf"), url(../fonts/OpenSans-Regular.woff2) format("woff2"), url(../fonts/OpenSans-Regular.woff) format("woff");
 	font-weight: 400;
 	font-style: normal;
+}
 
-	font-family: "OpenSans-Bold";
+@font-face {
+	font-family: 'OpenSans';
 	src: url(../fonts/OpenSans-Bold.ttf) format("ttf"), url(../fonts/OpenSans-Bold.woff2) format("woff2"), url(../fonts/OpenSans-Bold.woff) format("woff");
 	font-weight: 700;
 	font-style: bold;
 }
-
 
 /* reset */
 body {
@@ -41,7 +42,8 @@ ul {
 /* body */
 
 body {
-	font-family: OpenSans-Regular, sans-serif;
+	font-family: 'OpenSans', sans-serif;
+	font-weight: 400;
 	margin: 0;
 }
 
@@ -82,7 +84,7 @@ body {
 }
 
 .header-title {
-	font-family: OpenSans-Bold, sans-serif;
+	font-family: 'OpenSans', sans-serif;
 	font-size: 45px;
 	line-height: 75px;
 	max-width: 800px;
@@ -403,7 +405,7 @@ body {
 }
 
 .posts-author {
-	font-family: OpenSans-Bold, sans-serif;
+	font-family: 'OpenSans', sans-serif;
 	text-decoration: none;
 	color: #000000;
 	font-size: 12px;
@@ -576,7 +578,7 @@ body {
 }
 
 .tags-button {
-	font-family: OpenSans-Bold, sans-serif;
+	font-family: 'OpenSans', sans-serif;
 	display: block;
 	font-size: 11px;
 	color: #0f0d0e;
